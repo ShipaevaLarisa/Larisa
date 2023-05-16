@@ -1,0 +1,13 @@
+print('x1 = ', end='')
+x1 = float(input())
+print('y1 = ', end='')
+y1 = float(input())
+print('x2 = ', end='')
+x2 = float(input())
+print('y2 = ', end='')
+y2 = float(input())
+k = (y1 - y2) / (x1 - x2)
+k1 = round(k, 2)
+b = y2 - k * x2
+b1 = round(b, 2)
+print('y =',k1,'* x +',b1)
